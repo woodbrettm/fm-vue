@@ -1,0 +1,14 @@
+{
+  "name": "fm-vue",
+  "description": "Frontend Mentor Challenges With Vue.js",
+  "author": "Brett Wood <brett@woodbrettm.com",
+  "repository": "https://github.com/woodbrettm/fm-vue.git",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@7.14.2",
+  "devDependencies": {
+    "vite": "^3.2.2"
+  }
+}

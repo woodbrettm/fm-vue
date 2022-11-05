@@ -1,0 +1,22 @@
+node_modules
+*.local
+.DS_Store
+dist
+dist-ssr
+.eslintcache
+coverage
+.pnpm-store
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Yarn-Related
+# Zero-Installs Not Enabled
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions

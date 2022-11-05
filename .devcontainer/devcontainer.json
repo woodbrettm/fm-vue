@@ -1,0 +1,28 @@
+{
+	"name": "Frontend Mentor Vue.js",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"dbaeumer.vscode-eslint",
+				"vue.volar",
+				"ecmel.vscode-html-css",
+				"voorjaar.windicss-intellisense",
+				"esbenp.prettier-vscode"
+			]
+		}
+	},
+	"forwardPorts": [
+		5173
+	],
+	"portsAttributes": {
+		"5173": {
+			"label": "Vite Server",
+			"onAutoForward": "notify"
+		}
+	},
+	"remoteUser": "node"
+}
