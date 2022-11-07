@@ -9,7 +9,6 @@
       "extensions": [
         "dbaeumer.vscode-eslint",
         "vue.volar",
-        "ecmel.vscode-html-css",
         "voorjaar.windicss-intellisense",
         "esbenp.prettier-vscode"
       ]
@@ -20,9 +19,16 @@
   ],
   "portsAttributes": {
     "5173": {
-      "label": "Vite Server",
+      "label": "Vite Dev Server",
+      "onAutoForward": "notify"
+    },
+    "4173": {
+      "label": "Vite Preview Server",
       "onAutoForward": "notify"
     }
-  },
-  "remoteUser": "node"
+  }
+  // "remoteUser": "node",
+  // "postCreateCommand": [
+  //   "pnpm install"
+  // ]
 }

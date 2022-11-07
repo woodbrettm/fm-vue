@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "preserve",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "composite": true,
+    "declaration": true,
+    "declarationMap": true,
+    "incremental": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": [
+    "challenges/**/src/**/*.ts",
+    "challenges/**/src/**/*.d.ts",
+    "challenges/**/src/**/*.tsx",
+    "challenges/**/src/**/*.vue"
+  ]
+}
