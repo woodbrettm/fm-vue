@@ -1,5 +1,5 @@
 # https://github.com/nodejs/docker-node
-FROM node:16
+FROM node:18
 
 # Helps With Hot Reloading
 ENV CHOKIDAR_USEPOLLING=true
